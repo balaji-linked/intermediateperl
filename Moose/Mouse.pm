@@ -29,7 +29,7 @@ around 'name' => sub {
     my $self = shift;
     say "Calling name";
     blessed $self ? $self -> $next(@_) : "unnamed self";
-    say "Name called";
+    #say "Name called";
 };
 
 1;

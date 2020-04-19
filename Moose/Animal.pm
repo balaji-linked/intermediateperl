@@ -18,7 +18,9 @@ sub speak {
     my $self = shift;
     say $self->name, " goes ", $self->sound;
 }
+sub dummy {
 
+}
 #__PACKAGE__->meta->make_immutable;
 
 1;
